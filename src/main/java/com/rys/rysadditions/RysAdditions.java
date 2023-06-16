@@ -1,7 +1,8 @@
 package com.rys.rysadditions;
 
+import com.rys.rysadditions.item.ModItemGroup;
+import com.rys.rysadditions.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,8 @@ public class RysAdditions implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("||||||||||||||||||||||||||||||||||||||||");
+
+        ModItemGroup.registerItemGroups();
+        ModItems.registerModItems();
     }
 }
