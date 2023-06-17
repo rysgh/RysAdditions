@@ -3,7 +3,6 @@ package com.rys.rysadditions.item;
 import com.rys.rysadditions.RysAdditions;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import net.minecraft.registry.Registry;
@@ -17,6 +16,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        RysAdditions.LOGGER.debug("Registering items for " + RysAdditions.MOD_ID);
+        RysAdditions.LOGGER.info("Registering items for " + RysAdditions.MOD_ID);
     }
 }

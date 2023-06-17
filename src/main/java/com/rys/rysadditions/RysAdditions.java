@@ -1,5 +1,6 @@
 package com.rys.rysadditions;
 
+import com.rys.rysadditions.block.ModBlocks;
 import com.rys.rysadditions.item.ModItemGroup;
 import com.rys.rysadditions.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -12,9 +13,11 @@ public class RysAdditions implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("||||||||||||||||||||||||||||||||||||||||");
+        LOGGER.info("Starting RysAdditions... ");
 
         ModItemGroup.registerItemGroups();
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
+
     }
 }

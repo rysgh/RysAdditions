@@ -1,6 +1,7 @@
 package com.rys.rysadditions.item;
 
 import com.rys.rysadditions.RysAdditions;
+import com.rys.rysadditions.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -11,11 +12,13 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static ItemGroup TEST_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(RysAdditions.MOD_ID, "test_group"),
-            FabricItemGroup.builder()
-                .displayName(Text.translatable("itemGroup.rysadditions.test_group"))
-                .icon(() -> new ItemStack(ModItems.TEST_ITEM)).entries(((displayContext, entries) -> {
-                    entries.add(ModItems.TEST_ITEM);
-                })).build());
+        FabricItemGroup.builder()
+            .displayName(Text.translatable("itemGroup.rysadditions.test_group"))
+            .icon(() -> new ItemStack(ModItems.TEST_ITEM)).entries(((displayContext, entries) -> {
+                entries.add(ModItems.TEST_ITEM);
+
+                entries.add(ModBlocks.TEST_BLOCK);
+            })).build());
 
     public static void registerItemGroups() {
 

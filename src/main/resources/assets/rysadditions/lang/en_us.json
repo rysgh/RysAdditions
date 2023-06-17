@@ -1,5 +1,7 @@
 {
   "item.rysadditions.test_item": "Test Item",
 
+  "block.rysadditions.test_block": "Test Block",
+
   "itemGroup.rysadditions.test_group": "Test Group"
 }
