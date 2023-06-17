@@ -15,9 +15,22 @@ public class ModItemGroup {
         FabricItemGroup.builder()
             .displayName(Text.translatable("itemGroup.rysadditions.test_group"))
             .icon(() -> new ItemStack(ModItems.TEST_ITEM)).entries(((displayContext, entries) -> {
+                //Items
                 entries.add(ModItems.TEST_ITEM);
 
+                //Blocks
                 entries.add(ModBlocks.TEST_BLOCK);
+            })).build());
+
+    public static ItemGroup FISH = Registry.register(Registries.ITEM_GROUP, new Identifier(RysAdditions.MOD_ID, "fish_group"),
+        FabricItemGroup.builder()
+            .displayName(Text.translatable("itemGroup.rysadditions.fish_group"))
+            .icon(() -> new ItemStack(ModBlocks.CRATE)).entries(((displayContext, entries) -> {
+                //Items
+                //entries.add(ModItems.TEST_ITEM);
+
+                //Blocks
+                entries.add(ModBlocks.CRATE);
             })).build());
 
     public static void registerItemGroups() {

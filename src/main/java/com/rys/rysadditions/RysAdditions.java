@@ -3,6 +3,7 @@ package com.rys.rysadditions;
 import com.rys.rysadditions.block.ModBlocks;
 import com.rys.rysadditions.item.ModItemGroup;
 import com.rys.rysadditions.item.ModItems;
+import com.rys.rysadditions.util.ModLootTableModification;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,5 +20,6 @@ public class RysAdditions implements ModInitializer {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
 
+        ModLootTableModification.modifyLootTables();
     }
 }
