@@ -24,7 +24,7 @@ public class ModLootTableModification {
             if(FISHING_TREASURE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                     .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(1.00f))
+                    .conditionally(RandomChanceLootCondition.builder(0.80f))
                     .with(GroupEntry.create(ItemEntry.builder(CRATE), ItemEntry.builder(DEEP_SEA_CRATE), ItemEntry.builder(JEWEL_CRATE), ItemEntry.builder(PLANT_CRATE), ItemEntry.builder(RATION_CRATE)).build())
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
