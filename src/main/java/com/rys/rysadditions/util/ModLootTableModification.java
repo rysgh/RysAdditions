@@ -10,11 +10,11 @@ import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.util.Identifier;
 
-import static com.rys.rysadditions.block.ModBlocks.CRATE;
-import static com.rys.rysadditions.block.ModBlocks.DEEP_SEA_CRATE;
-import static com.rys.rysadditions.block.ModBlocks.JEWEL_CRATE;
-import static com.rys.rysadditions.block.ModBlocks.PLANT_CRATE;
-import static com.rys.rysadditions.block.ModBlocks.RATION_CRATE;
+import static com.rys.rysadditions.common.block.ModBlocks.CRATE;
+import static com.rys.rysadditions.common.block.ModBlocks.DEEP_SEA_CRATE;
+import static com.rys.rysadditions.common.block.ModBlocks.JEWEL_CRATE;
+import static com.rys.rysadditions.common.block.ModBlocks.PLANT_CRATE;
+import static com.rys.rysadditions.common.block.ModBlocks.RATION_CRATE;
 
 public class ModLootTableModification {
     private static final Identifier FISHING_TREASURE_ID = new Identifier("minecraft", "gameplay/fishing/treasure");

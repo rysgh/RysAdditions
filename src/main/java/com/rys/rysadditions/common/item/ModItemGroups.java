@@ -1,7 +1,7 @@
-package com.rys.rysadditions.item;
+package com.rys.rysadditions.common.item;
 
 import com.rys.rysadditions.RysAdditions;
-import com.rys.rysadditions.block.ModBlocks;
+import com.rys.rysadditions.common.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

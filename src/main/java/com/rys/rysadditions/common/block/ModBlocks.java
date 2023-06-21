@@ -1,4 +1,4 @@
-package com.rys.rysadditions.block;
+package com.rys.rysadditions.common.block;
 
 import com.rys.rysadditions.RysAdditions;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

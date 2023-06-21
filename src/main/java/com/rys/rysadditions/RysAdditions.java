@@ -1,8 +1,8 @@
 package com.rys.rysadditions;
 
-import com.rys.rysadditions.block.ModBlocks;
-import com.rys.rysadditions.item.ModItemGroups;
-import com.rys.rysadditions.item.ModItems;
+import com.rys.rysadditions.common.block.ModBlocks;
+import com.rys.rysadditions.common.item.ModItemGroups;
+import com.rys.rysadditions.common.item.ModItems;
 import com.rys.rysadditions.util.ModLootTableModification;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
