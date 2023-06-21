@@ -13,7 +13,6 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block TEST_BLOCK = registerBlocks("test_block", new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).strength(4.0f).requiresTool()));
     public static final Block CRATE = registerBlocks("crate", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(0.5f)));
     public static final Block DEEP_SEA_CRATE = registerBlocks("deep_sea_crate", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.STONE).strength(0.5f)));
     public static final Block JEWEL_CRATE = registerBlocks("jewel_crate", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(0.5f)));
