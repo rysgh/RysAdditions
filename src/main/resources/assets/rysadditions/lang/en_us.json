@@ -1,14 +1,9 @@
 {
-  "item.rysadditions.test_item": "Test Item",
-
-  "block.rysadditions.test_block": "Test Block",
-
   "block.rysadditions.crate": "Crate",
   "block.rysadditions.deep_sea_crate": "Deep sea crate",
   "block.rysadditions.jewel_crate": "Jewel crate",
   "block.rysadditions.plant_crate": "Plant crate",
   "block.rysadditions.ration_crate": "Ration crate",
 
-  "itemGroup.rysadditions.test_group": "Test Group",
   "itemGroup.rysadditions.fishing_group": "Rys Fishing"
 }
