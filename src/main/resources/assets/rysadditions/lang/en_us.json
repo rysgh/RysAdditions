@@ -1,9 +1,11 @@
 {
+  "item.rysadditions.firefly_spawn_egg": "Firefly spawn egg",
+
   "block.rysadditions.crate": "Crate",
   "block.rysadditions.deep_sea_crate": "Deep sea crate",
   "block.rysadditions.jewel_crate": "Jewel crate",
   "block.rysadditions.plant_crate": "Plant crate",
   "block.rysadditions.ration_crate": "Ration crate",
 
-  "itemGroup.rysadditions.fishing_group": "Rys Fishing"
+  "itemGroup.rysadditions.group": "Rys Additions"
 }

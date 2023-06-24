@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"com.rys.rysadditions.RysAdditionsClient"
+		],
+		"fabric-datagen": [
+			"com.rys.rysadditions.RysAdditionsDataGenerator"
 		]
 	},
 	"mixins": [
@@ -31,9 +34,10 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20.1",
+		"minecraft": "<=1.20",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"geckolib": "<=4.2"
 	},
 	"suggests": {
 		"another-mod": "*"

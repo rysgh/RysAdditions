@@ -11,12 +11,12 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static ItemGroup FISHING_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(RysAdditions.MOD_ID, "fishing_group"),
+    public static ItemGroup GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(RysAdditions.MOD_ID, "group"),
         FabricItemGroup.builder()
-            .displayName(Text.translatable("itemGroup.rysadditions.fishing_group"))
+            .displayName(Text.translatable("itemGroup.rysadditions.group"))
             .icon(() -> new ItemStack(ModBlocks.CRATE)).entries(((displayContext, entries) -> {
                 //Items
-                //entries.add(ModItems.TEST_ITEM);
+                entries.add(ModItems.FIREFLY_SPAWN_EGG);
 
                 //Blocks
                 entries.add(ModBlocks.CRATE);
