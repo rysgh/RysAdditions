@@ -14,5 +14,5 @@ public class ModEntities {
     public static final EntityType<FireflyEntity> FIREFLY = Registry.register(
             Registries.ENTITY_TYPE, new Identifier(RysAdditions.MOD_ID, "firefly"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, FireflyEntity::new)
-                    .dimensions(EntityDimensions.fixed(0.5f, 0.5f)).build());
+                    .dimensions(EntityDimensions.fixed(0.5f, 0.4f)).build());
 }
