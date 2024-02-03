@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "rysadditions:block/firefly_jar"
+    },
+    "hanging=true": {
+      "model": "rysadditions:block/firefly_jar_hanging"
+    }
+  }
+}

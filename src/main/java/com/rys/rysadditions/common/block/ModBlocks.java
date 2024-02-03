@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.LanternBlock;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -18,7 +20,7 @@ public class ModBlocks {
     public static final Block JEWEL_CRATE = registerBlocks("jewel_crate", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(0.5f)));
     public static final Block PLANT_CRATE = registerBlocks("plant_crate", new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).strength(0.5f)));
     public static final Block RATION_CRATE = registerBlocks("ration_crate", new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).strength(0.5f)));
-
+    public static final Block FIREFLY_JAR = registerBlocks("firefly_jar", new LanternBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).strength(0.5f).luminance(state -> 15).nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
 
     private static Block registerBlocks(String name, Block block) {
         registerBlockItem(name, block);

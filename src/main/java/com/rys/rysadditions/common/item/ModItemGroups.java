@@ -25,6 +25,8 @@ public class ModItemGroups {
                 entries.add(ModBlocks.PLANT_CRATE);
                 entries.add(ModBlocks.RATION_CRATE);
 
+                entries.add(ModBlocks.FIREFLY_JAR);
+
             })).build());
 
     public static void registerItemGroups() {

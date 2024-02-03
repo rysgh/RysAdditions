@@ -1,0 +1,6 @@
+{
+  "parent": "rysadditions:block/template_hanging_firefly_jar",
+  "textures": {
+    "lantern": "rysadditions:block/firefly_jar"
+  }
+}
